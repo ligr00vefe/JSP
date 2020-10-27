@@ -1,0 +1,12 @@
+JSP 개발환경 설정
+
+Tomcat 설치
+  1. https://tomcat.apache.org/ 사이트에서 Tomcat 8버전 다운로드(zip) -> 설치
+  2. eclipse -> Window -> Preferences -> Server -> Runtime Environments -> Add -> Tomcat 버전 선택(8.5) -> next -> Tomcat installation directory 위치 등록 -> finish
+  3. Run -> Run As -> 해당 Tomcat 선택(1 Run on Server) -> 작업물 위치 등록 확인 후 finish(최초 실행 1회만 등록)
+  4. Window -> Preferences -> General -> Web Browser -> Use external web browser 체크 -> Apply
+  5. Run -> Run As -> 해당 Tomcat 선택(1 Run on Server) -> finish
+  6. (한글 폰트 나오게 하는 법) Window -> Preferences -> Web -> HTML Files, JSP Files -> Encoding: ISO 10646/Unicode(UTF-8)로 변경
+
+Eclipse 설정
+  1. Dynamic Web Project -> 프로젝트 명 설정 후 next -> next -> Generate web.xml deployment descript 항목 체크 후 finish
