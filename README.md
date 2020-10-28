@@ -1,4 +1,5 @@
-## JSP 수업예제
+## JSP 수업
+
 ### Ch01. Hello JSP
 ```
   1-1. Hello JSP 출력하기
